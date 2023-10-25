@@ -1,0 +1,21 @@
+// An object is defined looking like a regular object
+
+product: {
+	names: [string]
+}
+
+store: {
+	location: string
+	name:     string
+}
+
+// let types: {
+// 	product: {
+// 		item: string
+// 	}
+
+// 	Store: {
+// 		location: string
+// 		name:     string
+// 	}
+// }
