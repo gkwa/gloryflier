@@ -1,21 +1,7 @@
-// An object is defined looking like a regular object
-
-product: {
-	names: [string]
+let types: {
+	Product: {
+		names: [string]
+	}
 }
 
-store: {
-	location: string
-	name:     string
-}
-
-// let types: {
-// 	product: {
-// 		item: string
-// 	}
-
-// 	Store: {
-// 		location: string
-// 		name:     string
-// 	}
-// }
+product: types.Product
