@@ -1,3 +1,18 @@
+stores: {
+	"safeway1": {
+		name:     "safeway"
+		location: "1111 any street"
+	}
+	"qfc1": {
+		name:     "qfc"
+		location: "1111 what street"
+	}
+}
+
 product: {
-	names: ["Maesri Thai Red Curry Paste"]
+	names: [
+		"Maesri Thai Red Curry Paste",
+		"Thai Red Curry Paste",
+	]
+	stores: ["safeway1", "qfc1", "fredMeyer"]
 }

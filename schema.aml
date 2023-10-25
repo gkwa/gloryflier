@@ -1,7 +1,15 @@
 let types: {
 	Product: {
 		names: [string]
+                stores: [types.StoreId]
+	},
+	Store: {
+		name: string
+                location: string
 	}
+        StoreId: string
 }
 
 product: types.Product
+stores: string: types.Store
+
